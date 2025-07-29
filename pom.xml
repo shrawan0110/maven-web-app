@@ -7,6 +7,13 @@
   <version>3.0-RELEASE</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+        <id>shrawanIT-release-repo</id>
+        <url>http://192.168.147.128:8081/repository/shrawanIT-release-repo/</url>
+    </repository>
+  </distributionManagement>
+
  
   <dependencies>
     <dependency>
